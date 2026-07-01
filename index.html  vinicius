@@ -8,11 +8,13 @@
 <body>
     <header>
     <h1>1>Meu blog tech<h1>
-    <P>vou compartilrhar conhecimentos sobre tecnologia e programaçã<P>
-     </header>        
+    <P>vou compartilrhar conhecimentos sobre tecnologia e programaçã<P>  
+     <header
+            
      <h2>Meu primeiro post</h2>
      <p>Por: luisangel</p>
      <p>boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da area de tecnologia.</p> 
+     
 
 </body>
 </html>
