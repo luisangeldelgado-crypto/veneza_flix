@@ -1,20 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head> 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>blog</title>
-</head>
-<body>
-    <header>
-    <h1>1>Meu blog tech<h1>
-    <P>vou compartilrhar conhecimentos sobre tecnologia e programaçã<P>  
-     <header
-            
-     <h2>Meu primeiro post</h2>
-     <p>Por: luisangel</p>
-     <p>boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da area de tecnologia.</p> 
-     
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+        <title>Blog</title>
+        <style>
+            header{
+                background-color: #183C63;
+                color: #FFFFFF;
+                text-align: center;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 16px;
+                border: 5px solid;
+            }
+            main {
+                background-color: #FFFFFF;
+                color: #183C63;
+                padding: 16px;
+            }
+            img{
+                width: 80px;
+                height: 80px;
+            }
+            div p {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
 
-</body>
+            <h1>Meu blog tech</h1>
+            <p>Vou compartilhar conhecimentos sobre
+            tecnologia e programação</p>
+        </header>
+        <main>
+            <img src="imagem-blog.png" alt="Ícone estilizado em azul escuro sobre fundo branco. A imagem combina elementos de educação e tecnologia, mostrando um livro aberto com uma lâmpada contendo circuitos de dados em uma página, um chapéu de formatura (capelo) na outra, e uma seta ascendente com pixels saindo do livro.">
+            <div>
+                <h2>Meu primeiro post</h2>
+                <p>Por: Igor dos Santos Avelino</p>
+                <p>Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p>
+                <button>❤️ <span>0</span></button>
+                <button>👍 <span>0</span></button>
+            </div>
+            
+            
+        </main>
+    </body>
+    <script>
+        const botao = document.querySelectorALL("button");
+        botao.addEventListener("click", botaoClicado);
+
+    function botaoClicado(){
+        console.log("fui clicado");
+        let texto = botao.querySelector("span");
+        texto.textContent++;
+    }
+    
+ </script>
 </html>
